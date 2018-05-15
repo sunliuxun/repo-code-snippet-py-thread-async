@@ -1,0 +1,6 @@
+01- 就一个主线程，功能是对于每个图片先下载，再resize  -- <Demo Code WalkThrough>
+02- 3个下载线程，1个resize线程，结果是错误的，因为线程没有先后顺序 -- <Creating thread in py>
+03- 3个下载线程，
+04-
+05
+06- 用Queue做一些事<Demo: Multiple reader threads>
